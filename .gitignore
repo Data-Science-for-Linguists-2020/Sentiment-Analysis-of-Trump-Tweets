@@ -6,3 +6,5 @@
 .Spotlight-V100
 Thumbs.db
 desktop.ini
+#------------------ other files
+project_test.py
