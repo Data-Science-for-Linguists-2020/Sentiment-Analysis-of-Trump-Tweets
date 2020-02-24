@@ -11,3 +11,6 @@ I've finished setting up my project repository
 - created project_report.md
 - created project_plan.md and laid out a detailed plan of attack
 - created .gitignore
+
+## February 24, 2020
+This is my first *actual* progress report
