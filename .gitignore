@@ -7,4 +7,4 @@
 Thumbs.db
 desktop.ini
 #------------------ other files
-project_test.py
+__pycache__
