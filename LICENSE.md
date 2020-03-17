@@ -1,1 +1,1 @@
-This is where my license will go.
+[NeelShah18's Emoticon License](https://github.com/NeelShah18/emot/blob/master/LICENSE)
