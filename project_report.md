@@ -37,3 +37,19 @@ As far as my actual data, the Trump Twitter Archive is free to use (and it doesn
 
 #### Sharing
 To share my data, I have included a copy of the original .csv file in my 'data/' directory, along with a pickled form of the derivative dataset I created. My license specifies that anyone will be allowed to use my data so long that they state any changes made, disclose the source, and use the same license. 
+
+## April 14, 2020
+This is my third project report. In this report, I will discuss the final steps I made toward completing the data collection/computational efforts, as well as the analysis I've done. I've made changes to my code notebook in the *existing* format, so all changes and prior work can be found there. Additionally, the new data I've gathered can be found in the data directory.
+
+#### Data
+While I had already completed the data gathering/cleaning portion of the project for its original purpose, I felt that further depth was needed, so I decided to include a section where Machine Learning was implemented. Specifically, I compared Trump's tweets to a collection of random tweets from random users over a 48 hour period from April 14, 2016 to April 16, 2016. The dataset was free to use and can be found at [Followthehashtag](http://followthehashtag.com/datasets/free-twitter-dataset-usa-200000-free-usa-tweets/), so a big thank you to them.
+
+Once I had obtained this data, I imported it into a dataframe, but only included the same number of lines that were present in the set of trump tweets, as havin an uneven number of tweets from each set would skew the data. I then tagged each tweet as either T or Nt, indicating Trump or Not Trump. After this, I stripped the dataframes to contain just the tweet content and these tags, then combined them into one dataframe.
+
+#### Machine Learning
+I added a new section to my code entitled Machine Learning, and here is where I began the computational effort of building the model and making predictions. I decided that I would use a similar strategy with this to what I did in Homework 4. After I learned more about GridSearchCV, I realized two things: 1) it is actually pretty easy to implement and 2) it is even more so useful.
+
+First, I created my pipeline which consisted of a TfidfVectorizer and a Multinomial Naive Bayes (this is the model I am most comfortable with). I then defined the parameters that I would test with the GridSearchCV. I started with max features of 1500, 3000, and 4500 and alpha values of .01 and .001, but later added max features of 9000. This results in a total of eight parameter combinations. Once this was done, I fit the GridSearchCV to my data and printed my predictions.
+
+#### Analysis
+Because I was already familiar with the first two steps, I spent the bulk of this iteration of my project beefing up analyses I had already made, analyzing my new machine learning results, and adding a conclusion section where I drew some final conclusions for the entirety of the project. I won't go into too much depth on those since they can be read [here](https://github.com/Data-Science-for-Linguists-2020/Sentiment-Analysis-of-Trump-Tweets/blob/master/code/project_code.ipynb), but other than that I think this iteration was very productive. In the final report, I would like to finalize my analyses and support them with some more real world causes for Trump's twitter behavior.
