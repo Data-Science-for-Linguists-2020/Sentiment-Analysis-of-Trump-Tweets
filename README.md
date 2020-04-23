@@ -16,4 +16,4 @@ This is the repository for Joey's term project, Analysis of Trump Tweets. The go
 
 The data I use in my research came from several different sources. The data from Trump and [other person] comes from the [Trump Twitter Archive](http://www.trumptwitterarchive.com/archive), which is a free database of the tweets of Donald Trump and many other prominent American political figures. The website was made by Brendan Brown. I also got a set of 200,000 randomly generated tweets from [followthehashtag.com](http://followthehashtag.com). This too was free to use.
 
-I received regular feedback from my peers in Data Science for Linguists which can be found [here](https://github.com/Data-Science-for-Linguists-2020/Class-Plaza/blob/master/guestbooks/guestbook_joey.md). Thank you for everyone who contributed.
+I received regular feedback from my peers in Data Science for Linguists which can be found [here](https://github.com/Data-Science-for-Linguists-2020/Class-Plaza/blob/master/guestbooks/guestbook_joey.md). Thank you to everyone who contributed.
