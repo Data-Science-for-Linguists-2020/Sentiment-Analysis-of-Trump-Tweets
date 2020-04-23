@@ -10,4 +10,5 @@ This is the repository for Joey's term project. The goal of this project was to 
 - **[project_plan.md](https://github.com/Data-Science-for-Linguists-2020/Sentiment-Analysis-of-Trump-Tweets/blob/master/project_plan.md):** the plan of how I will complete my project frmo beginning to end
 - **[project_report.md](https://github.com/Data-Science-for-Linguists-2020/Sentiment-Analysis-of-Trump-Tweets/blob/master/project_report.md):** chronological reports of the progression of my project
 - **[code](https://github.com/Data-Science-for-Linguists-2020/Sentiment-Analysis-of-Trump-Tweets/tree/master/code):** the directory in which I keep my [project code file](https://github.com/Data-Science-for-Linguists-2020/Sentiment-Analysis-of-Trump-Tweets/blob/master/code/project_code.ipynb)
-- **[code](https://github.com/Data-Science-for-Linguists-2020/Sentiment-Analysis-of-Trump-Tweets/tree/master/data):** the directory in which I keep my data
+- **[data](https://github.com/Data-Science-for-Linguists-2020/Sentiment-Analysis-of-Trump-Tweets/tree/master/data):** the directory in which I keep my data
+- **[images](https://github.com/Data-Science-for-Linguists-2020/Sentiment-Analysis-of-Trump-Tweets/blob/master/images)** the directory containing the images that were generated from my project file
