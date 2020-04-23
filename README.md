@@ -1,4 +1,4 @@
-# Analysis-of-Trump-Tweets
+# Analysis of Trump Tweets
 Joey Livorno | gil15@pitt.edu | 4.24.2020
 
 ## Abstract
