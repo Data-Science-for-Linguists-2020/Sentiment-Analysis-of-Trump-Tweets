@@ -31,6 +31,13 @@ Trump also uses influence to disparage his enemies, which can be seen in the man
 With all this in mind, my project proposal is to simply analyze the content of Trump's Twitter feed to find any striking trends in his habits. If there is any merit to the common assumption that Trump is a notorious Twitter user, then the data should in theory support this in one way or another. More specifically, my plan is to analyze the data from three perspectives. Firstly, I will conduct an Exploratory Data Analysis, which will simply analyze the overall trends in his data and try to link them to his influence. Second, I will conduct a more Linguistic analysis of the data, which will be characterized by a sentiment analysis. Finally, I will construct a few machine learning models that will predict various aspects of his tweets. The first will predict whether or not a tweet was composed by Trump, and the second will predict the sentiment within a certain range. In order to do this, though, I my first task is to obtain the data and clean it.
 
 ## Data Gathering and Cleaning
+The first step of my project was to gather the data. The obvious first source I investigated was the Twitter API, the library that allows users to scrape Twitter data directly from the website. There were several problems with this approach, though. First, the data is very unorganized, with each row containing about 190 attributes! This is much more than what I needed. Another problem is that with a basic API package, one can only obtain about 3200 tweets. I needed more data than this to draw sound conclusions, so I decided to look elsewhere for my data. I found a website called the [Trump Twitter Archive](http://www.trumptwitterarchive.com), which is a free-to-use website created by Brendan Brown that collects all of Trump's twitter data and provides it in a clear and easily downloadable format. I also needed a random sample of tweets that I could compare to Trump's, so for this I used a dataset from [followthehashtag.com](http://followthehashtag.com). This website also provided their data for free, and I was able to obtain about 200,000 tweets from April 14-16 in 2016.
+
+Once I had obtained the data, I had to prepare each of the sets for analysis. For the Trump data, I used a library called [TextBlob](https://textblob.readthedocs.io/en/dev/), a library that allows for relatively simple implementations of Natural Language Processing. I used their sentiment library to create the polarity values that I would use for my analysis. Next, I placed each of the tweets in categories that described their sentiment on a higher level. Low sentiment values were given the label 'L', low-neutral values 'LN', and so on. Finally, I added miscellaneous attributes to the data that would make it easier to process, such as isolating the year, tokenization, etc.
+
+I then began a similar path with the randomly sampled data. First, I got rid of all the columns except for the data and the label 'NT', meaning 'Not Trump.' After this, I copied the dataframe and assigned polarity values to these copied rows. Finally, I created a copy of the Trump data that only contained the text content and the label 'T', meaning 'Trump', and concatenated the two. Because there were only about forty thousand Trump tweets, I had to extract about a fifth of the random twitter data to be used, otherwise my machine learning models would be inaccurate.
+
+Click [here](https://github.com/Data-Science-for-Linguists-2020/Sentiment-Analysis-of-Trump-Tweets/blob/master/code/project_code.ipynb/#Basic-Data-Processing) to see the full Data Cleaning process.
 
 ## Exploratory Data Analysis
 
@@ -48,3 +55,6 @@ https://www.vanityfair.com/news/2020/03/twitter-manipulation-policy-biden-trump
 https://developer.twitter.com/en/docs
 https://www.politifact.com/factchecks/2020/apr/16/donald-trump/donald-trump-falsely-claims-nancy-pelosi-deleted-v/
 https://www.rollcall.com/2019/08/26/trumps-nicknames-ranked-as-he-locks-in-on-2020-foes-and-foils/
+http://www.trumptwitterarchive.com
+http://followthehashtag.com
+https://textblob.readthedocs.io/en/dev/
