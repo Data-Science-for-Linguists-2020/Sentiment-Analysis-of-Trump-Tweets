@@ -9,7 +9,7 @@ Joey Livorno | gil15@pitt.edu | 4.24.2020
 5. [Exploratory Data Analysis](Exploratory-Data-Analysis)
 6. [Linguistic Analysis](#Linguistic-Analysis)
 7. [Machine Learning Analysis](#Machine-Learning-Analysis)
-8. [Future Plans](#Future-Plans)
+8. [Problems](#Problems)
 9. [Conclusion](#Conclusion)
 10. [Sources](#Sources)
 
@@ -37,15 +37,15 @@ Once I had obtained the data, I had to prepare each of the sets for analysis. Fo
 
 I then began a similar path with the randomly sampled data. First, I got rid of all the columns except for the data and the label 'NT', meaning 'Not Trump.' After this, I copied the dataframe and assigned polarity values to these copied rows. Finally, I created a copy of the Trump data that only contained the text content and the label 'T', meaning 'Trump', and concatenated the two. Because there were only about forty thousand Trump tweets, I had to extract about a fifth of the random twitter data to be used, otherwise my machine learning models would be inaccurate.
 
-Click [here](https://github.com/Data-Science-for-Linguists-2020/Sentiment-Analysis-of-Trump-Tweets/blob/master/code/project_code.ipynb/#Basic-Data-Processing) to see the full Data Cleaning process.
-
 ## Exploratory Data Analysis
+In this section, I looked at the data as a whole to find an striking features. The first thing I noted was that Trump's [overall polarity was suprisingly high](https://github.com/Data-Science-for-Linguists-2020/Sentiment-Analysis-of-Trump-Tweets/blob/master/images/polarity_box.png). It was by no means high, but it was in the high neutral range, and given the discourse about Trump's Twitter, I would've expected it to be lower. What was even more suprising was that the [average polarity of the random users](https://github.com/Data-Science-for-Linguists-2020/Sentiment-Analysis-of-Trump-Tweets/blob/master/images/misc_polarity_box.png) was *lower* than that of the President. While this was quite shocking, I think the most likely reason for my shock was because of a bias that is prevelant in media today. Simply put, we pay more attention to incendiary material. If the President tweets something nice on a holiday, no one cares, but if he tweets something sassy about Nancy Pelosi, everyone, for better or worse, eats it up. It's because of these tweets--the outliers--that I would expect his polarity to be much lower, but they are just that: outliers.
+
 
 ## Linguistic Analysis
 
 ## Machine Learning Analysis
 
-## Future Plans
+## Problems
 
 ## Conclusion
 
