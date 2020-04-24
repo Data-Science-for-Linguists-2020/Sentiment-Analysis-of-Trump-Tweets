@@ -22,6 +22,10 @@ Despite this, the vast amounts of content on Twitter make it an excellent source
 
 ## Background Summary
 
+Donald Trump was elected 45th President of the United States in November of 2016. Although he largely came into the public eye in 2015 when he began his campaign, Donald Trump has been a well-known celebrity for a very long time. His Twitter career began in 2009, though, just three years after Twitter was created. Since then, Trump has amassed over [78 million followers on the app](https://www.socialbakers.com/statistics/twitter/profiles/detail/25073877-realdonaldtrump) and has tweeted about fifty thousand times. Needless to say, Trump's Twitter influence has become rather significant, but the *way* in which he uses this influence has been subject to controversy.
+
+As stated before, Donald Trump has been notorious for using his online influence to spread misinformation. While going through each of his tweets in order to find the truth value in each would be quite the undertaking, we can still look at some of the highlights in order to establish that there is a glaring trend. Politifact is a prominent website for fact checking public figures, and they have cited several recent times in which the President said things that were deemed false. One example from Twitter was on April 16, 2020 when the [President claimed that House Speaker Nancy Pelosi deleted a video from her profile of her telling people that to go to Chinatown](https://www.politifact.com/factchecks/2020/apr/16/donald-trump/donald-trump-falsely-claims-nancy-pelosi-deleted-v/). Politifact cites that even though Pelosi did say this, there was no evidence that the video was ever on her page. Furthermore, when she did say these things, there were no reports of COVID-19 being spread within the community and public gatherings had not yet been cancelled. The website cites several other key times the President spread misinformation on Twitter, and if he has done it on more than a few occasions, we can assume that it is a negative trend within his tweeting habits.
+
 ## Project Proposal
 
 ## Data Gathering and Cleaning
